@@ -1,12 +1,3 @@
-/*>Discente: Andreza Vilar de Farias
->Matrícula: 120210357
->Período: 2020.2
->Curso: Engenharia Elétrica
->Disciplina: Técnicas de Programação
->Turma: 02
->Professor: Marcus Salerno
->Unidade 1 : lab 1*/
-
 #include <iostream>
 #include <iomanip>
 #include <cmath>
@@ -37,7 +28,7 @@ int main() {
 	
 	distancia   = pow(p2.x-p1.x,2) + pow(p2.y-p1.y,2);
 	cout << fixed << setprecision(2);
-	cout << "A distância entre os 2 pontos é " << sqrt(distancia);
+	cout << "A distÃ¢ncia entre os 2 pontos Ã© " << sqrt(distancia);
 	
 	
 	return 0;
